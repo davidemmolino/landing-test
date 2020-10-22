@@ -1,0 +1,43 @@
+//Font Colors
+
+$dark: #393b44;;
+$midDark: #212121;
+$midLight: #E0E0E0;
+$lightLight: #F5F5F5;
+$linkedin: #0e76a8;
+
+// Background Colors
+
+$background-dark: #393b44;
+$background-medium: #8d93ab;
+$background-light: #d6e0f0;
+$background-veryLight: #f1f3f8;
+
+
+// Button Classes
+
+.grey-button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: $lightLight;
+  background-color: $background-medium;
+  text-align: center;
+} 
+.btn-left {
+  margin-right: 17.5px;
+}
+.btn-right {
+  margin-left: 17.5px;
+}
+.grey-button:hover {
+  color: rgb(69, 116, 179);
+}
+
+.smaller-button {
+  font-size: 0.8rem;
+  padding: 5px 20px;
+}

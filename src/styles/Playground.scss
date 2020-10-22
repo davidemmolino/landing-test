@@ -1,0 +1,219 @@
+
+@import "./styles/Constants";
+
+
+#playground-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  color: $lightLight;
+}
+
+#playground-container {
+  background-color: $background-veryLight;
+  width: 60vw;
+  height: 70vh;
+  color: $dark;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid #3b3b3b;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  button {
+    font-weight: bold;
+  }
+}
+
+#playgound-start {
+  p {
+    width: 50px;
+  }
+}
+
+#playground {
+  height: 100%;
+}
+
+
+/* Playground section */
+
+
+#playground-section h2 {
+    font-size: 3em;
+    font-weight: 100;
+}
+
+#time-travel-div {
+    margin-bottom: 250px;
+}
+/* tv show list */
+
+.tvshow-list {
+    width: 250px;
+    min-width: 250px;
+    margin-right: 20px;
+}
+
+.tvshow-list .item {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;
+}
+
+.tvshow-list .item:hover .name{
+    color: orange;
+}
+
+.tvshow-list .item .name {
+    font-size: 18px;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.tvshow-list .item .score {
+    background-color: greenyellow;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.tvshow-details .details {
+    padding-right: 10px;
+}
+
+/* comments */
+
+.comments {
+    padding: 9px;
+}
+
+.comment {
+    margin-bottom: 10px;
+}
+/* container */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+
+/****************************
+
+TIC-TAC-TOE
+
+*****************************/
+
+.playground-box {
+  height: 100px;
+  width: 100px;
+  border: 2px solid $dark;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 1.75;
+  font-size: 3em;
+  font-family: Menlo;
+}
+
+.playground-box-win {
+  border: 2px solid red;
+  color: red;
+}
+
+@media (max-width: 700px) {
+
+.playground-box {
+  height: 80px;
+  width: 80px;
+  border: 2px solid $dark;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 1.75;
+  font-size: 3em;
+  font-family: Menlo;
+}
+
+.playground-box {
+  font-size: 2.5em;
+}
+
+}
+
+
+@media (max-width: 480px) {
+
+.playground-box {
+  height: 70px;
+  width: 70px;
+  border: 2px solid $dark;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 1.75;
+  font-size: 3em;
+  font-family: Menlo;
+}
+
+.playground-box {
+  font-size: 2.5em;
+}
+
+#playground-container {
+  width: 80vw;
+}
+
+
+
+
+}
+
+
+@media (max-width: 400px) {
+
+.playground-box {
+  height: 70px;
+  width: 70px;
+  border: 2px solid $dark;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 1.75;
+  font-size: 3em;
+  font-family: Menlo;
+}
+
+.playground-box {
+  font-size: 2em;
+}
+
+#playground-container {
+  width: 80vw;
+
+}
+
+}

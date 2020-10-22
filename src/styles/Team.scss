@@ -1,0 +1,290 @@
+@import "./styles/Constants";
+
+#contributor-pictures p {
+    margin: 15px;
+    text-align: center;
+}
+
+
+.grid-container {
+    margin: 0 auto;
+    display: grid;
+    width: 70vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+    ". . . ."
+    ". . . ."
+    ". . . ."
+    ". . . .";
+    margin-bottom: 40px;
+}
+// styling for the individual contributor pictures
+.contributor {
+    width: 40%;
+    height: auto;
+    justify-self: center;
+}
+// styling for container holding contributor pictures
+.grid-flex {
+    display: flex;
+    justify-content: center;
+}
+
+// styling for container that holds socialmedia icons
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px auto 25px auto;
+}
+.social-icons {
+    width: 100%;
+    font-size: 25px;
+    margin: auto 15px auto 15px;
+}
+
+.linkedin {
+    color: linkedin;
+}
+
+.github {
+    color: $dark;
+}
+
+// hover effect for socialmedia icons
+.social-icons:hover {
+    opacity: 0.85;
+}
+
+
+@media (max-width: 1000px) {
+
+    .grid-container {
+    margin: 0 auto;
+    display: grid;
+    width: 80vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+    ". . . "
+    ". . . "
+    ". . . "
+    ". . . "
+    ". . . ";
+
+    margin-bottom: 40px;
+}
+
+}
+
+
+@media (max-width: 700px) {
+
+    .grid-container {
+
+    width: 90vw;
+
+}
+
+}
+
+
+
+// @media (max-width: 600px) {
+
+//     .grid-container {
+
+//     font-size: 0.8em;
+
+// }
+
+// }
+
+
+@media (max-width: 415px) {
+
+    .grid-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+
+    margin-bottom: 40px;
+    }
+
+    .contributor {
+    width: 20%;
+    justify-self: center;
+}
+
+    .individual-pic-container {
+        width: 50%;
+    }
+    .contributor {
+    width: 70%;
+    justify-self: center;
+}
+
+.flex-container {
+    margin: 5px auto 25px auto;
+}
+#contributor-pictures p {
+    margin: 5px;
+
+}
+
+}
+
+
+@media only screen 
+  and (min-width: 414px) 
+  and (max-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait){
+
+    .grid-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+
+    margin-bottom: 40px;
+    }
+
+    .contributor {
+    width: 20%;
+    justify-self: center;
+}
+
+    .individual-pic-container {
+        width: 50%;
+    }
+    .contributor {
+    width: 70%;
+    justify-self: center;
+}
+
+.flex-container {
+    margin: 5px auto 25px auto;
+}
+#contributor-pictures p {
+    margin: 5px;
+
+}
+
+}
+
+
+@media only screen 
+  and (min-width: 414px) 
+  and (max-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3){
+
+    .grid-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+
+    margin-bottom: 40px;
+    }
+
+    .contributor {
+    width: 20%;
+    justify-self: center;
+}
+
+    .individual-pic-container {
+        width: 50%;
+    }
+    .contributor {
+    width: 70%;
+    justify-self: center;
+}
+
+.flex-container {
+    margin: 5px auto 25px auto;
+}
+#contributor-pictures p {
+    margin: 5px;
+
+}
+
+}
+
+
+@media only screen 
+  and (min-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3){
+
+    .grid-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+
+    margin-bottom: 40px;
+    }
+
+    .contributor {
+    width: 20%;
+    justify-self: center;
+}
+
+    .individual-pic-container {
+        width: 50%;
+    }
+    .contributor {
+    width: 70%;
+    justify-self: center;
+}
+
+.flex-container {
+    margin: 5px auto 25px auto;
+}
+#contributor-pictures p {
+    margin: 5px;
+
+}
+
+}
+
+
+@media only screen 
+  and (max-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3){
+
+    .grid-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+
+    margin-bottom: 40px;
+    }
+
+    .contributor {
+    width: 20%;
+    justify-self: center;
+}
+
+    .individual-pic-container {
+        width: 50%;
+    }
+    .contributor {
+    width: 70%;
+    justify-self: center;
+}
+
+.flex-container {
+    margin: 5px auto 25px auto;
+}
+#contributor-pictures p {
+    margin: 5px;
+
+}
+
+}

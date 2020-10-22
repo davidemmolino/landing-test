@@ -1,0 +1,117 @@
+@import './styles/NavBar.scss';
+@import './styles/LandingPage.scss';
+@import './styles/ProductDownload.scss';
+@import './styles/Features.scss';
+@import './styles/Playground.scss';
+@import './styles/Team.scss';
+@import './styles/Footer.scss';
+@import './styles/GettingStarted.scss';
+
+@import "./styles/Constants";
+
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', */
+    /* 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: black;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    height: 100%;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
+.dark-background {
+    background-color: $background-dark;
+    color: $lightLight;
+}
+.light-background {
+    background-color: $background-veryLight;
+    color: $dark;
+}
+
+/* fading in animation */
+
+.fade-in {
+    animation: fadeIn 3.5s;
+}
+
+@keyframes fadeIn {
+    from { 
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in-later {
+    animation: fadeInLater 9s;
+}
+
+@keyframes fadeInLater {
+    from { 
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* scroll transition */
+
+/* [data-scroll] {
+    transition: all 2s;
+}
+[data-scroll='in'] {
+    opacity: 1;
+    transform: translateX(0)
+}
+[data-scroll='out'] {
+    opacity: 0;
+    transform: translateX(-200);
+} */
+
+
+
+.section-title-left {
+    /* add styling for h2 on top of all sections */
+    font-weight: 100;
+    font-size: 2em;
+    font-style: italic;
+    padding-left: 130px;
+}
+
+.section-title-right {
+    /* add styling for h2 on top of all sections */
+    font-weight: 100;
+    font-size: 2em;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 150px;
+}
+
+.section-title-center {
+    /* add styling for h2 on top of all sections */
+    font-weight: 100;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 15px;
+    margin: 45px auto;
+
+}
+
+.section-subtitle {
+    padding-left: 130px;
+    font-style: italic;
+    font-weight: 100;
+}
+

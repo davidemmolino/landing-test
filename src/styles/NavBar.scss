@@ -1,0 +1,59 @@
+.nav-bar {
+  padding: 5px;
+  background-color: #393b44;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+
+#nav-left ul li {
+  float: left;
+  padding: 5px;
+  margin-left: 5px;
+}
+#nav-left ul li a {
+  color: white;
+  text-decoration: none;
+  margin-right: 0;
+}
+#nav-right ul li{
+  float: right;
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+
+#linkedin-logo, #github-logo {
+  border-radius: 20px;
+  margin: 0px;
+  height: 35px;
+  border: 1px solid white;
+}
+
+#github-logo {
+  background-color: white;
+}
+
+#linkedin-logo {
+  background-color: #2867B2;
+  fill:  #2867B2;
+}
+
+@media screen and (max-width: 400px) {
+
+
+#nav-right ul li{
+  float: right;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+}
